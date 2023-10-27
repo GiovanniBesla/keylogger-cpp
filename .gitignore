@@ -1,1 +1,13 @@
-.vscode/*
+.vscode/
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+# Ignore virtual environment
+venv/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
